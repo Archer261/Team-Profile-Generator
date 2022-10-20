@@ -22,3 +22,58 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
+const teamManager = [
+    {
+        name: 'managername',
+        type: 'input',
+        message: "Enter Team Manager name",
+
+    },
+    {
+        name: 'managerid',
+        type: 'input',
+        message: "Enter employee ID",
+
+    },
+    {
+        name: 'manageremail',
+        type: 'input',
+        message: "Enter Team Manager email",
+
+    },
+    {
+        name: 'officenumber',
+        type: 'input',
+        message: "Enter Team Manager office number",
+
+    },
+]
+
+
+
+
+
+inquirer.prompt(questions)
+    .then((data) => {
+
+        //Name of readme file
+        const fileName = 'README.md';
+
+        fs.writeFile(fileName, generate(data), (err) => {
+            if (err)
+
+                //If file was not created, show error
+                console.log(err);
+            else {
+
+                // If the file was created, show message
+                console.log("File written successfully\n");
+
+            }
+        });
+
+    })
+
+function init() { }
+
+init();
