@@ -21,7 +21,8 @@ THEN I exit the application, and the HTML is generated
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
-
+const template = require("./src/index");
+const employeeList = [];
 const teamManager = [
     {
         name: 'managername',
@@ -47,7 +48,7 @@ const teamManager = [
         message: "Enter Team Manager office number",
 
     },
-]
+];
 
 
 
