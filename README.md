@@ -8,6 +8,20 @@
 
 A simple team profile geneartor that uses Inquirer data output to generate an HTML file.
 
+
+### **Running App**
+
+[runApp.webm](https://user-images.githubusercontent.com/104469447/197921762-d9861367-bf98-427a-9188-499e6f2f6307.webm)
+
+### **App Test**
+
+[runTest.webm](https://user-images.githubusercontent.com/104469447/197921778-844f1cf4-edc7-441c-a466-e79a35afea1a.webm)
+
+### **App Output**
+
+https://user-images.githubusercontent.com/104469447/197921790-cf0af89d-448e-4509-86ae-83259ae1e3c6.mp4
+
+
 ## **Table of Contents**
 
 1. [Installation](#Installation)
