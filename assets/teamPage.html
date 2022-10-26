@@ -1,6 +1,4 @@
-module.exports = function template(employeeCards) {
-    // console.log(`TEST THIS:` + employeeCards)
-    return `<html lang="en">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -20,7 +18,34 @@ module.exports = function template(employeeCards) {
 </div>
 
     <div class="card-deck">
-${employeeCards}
+<div class="card">
+<div class="card-body">
+    <h5 class="card-title text-center">Joseph Archer</h5>
+    <p class="card-text">ID: 3</p>
+    <p class="card-text">Email: <a href="mailto:viewtiful.kja@gmail.com">viewtiful.kja@gmail.com</a></p>
+    <p class="card-text">undefined</p>
+    <p class="card-text">GitHub: undefined</p>
+    <p class="card-text">School: undefined</p>
+</div>
+</div><div class="card">
+<div class="card-body">
+    <h5 class="card-title text-center">Bob Smith</h5>
+    <p class="card-text">ID: 4</p>
+    <p class="card-text">Email: <a href="mailto:bsmith@yahoo.com">bsmith@yahoo.com</a></p>
+    <p class="card-text">undefined</p>
+    <p class="card-text">GitHub: undefined</p>
+    <p class="card-text">School: Michigan State</p>
+</div>
+</div><div class="card">
+<div class="card-body">
+    <h5 class="card-title text-center">Allen Park</h5>
+    <p class="card-text">ID: 335</p>
+    <p class="card-text">Email: <a href="mailto:apark@gmail.com">apark@gmail.com</a></p>
+    <p class="card-text">undefined</p>
+    <p class="card-text">GitHub: APark47</p>
+    <p class="card-text">School: undefined</p>
+</div>
+</div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -34,5 +59,4 @@ ${employeeCards}
         crossorigin="anonymous"></script>
 </body>
 
-</html>`
-}
+</html>
