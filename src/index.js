@@ -1,5 +1,5 @@
-const employeeCard = require("./employee");
-module.exports = function template() {
+module.exports = function template(employeeCards) {
+    // console.log(`TEST THIS:` + employeeCards)
     return `<html lang="en">
 
 <head>
@@ -19,7 +19,7 @@ module.exports = function template() {
 <h1>Blue Team<h1>
 </div>
     <div class="card-deck">
-${employeeCard}
+${employeeCards}
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
